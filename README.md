@@ -1,3 +1,5 @@
+# This is a fork that supports TF2 and colab
+
 # Implementation of Reinforcement Learning Algorithms in Keras tested on VizDoom
 
 This repo includes implementation of Double Deep Q Network (DDQN), Dueling DDQN, Deep Recurrent Q Network (DRQN) with LSTM, REINFORCE, Advantage Actor Critic (A2C), A2C with LSTM, and C51 DDQN (Distribution Bellman). All implementations are tested on [VizDoom](http://vizdoom.cs.put.edu.pl/) **Defend the Center** scenario, which is a 3D partially observable environment. 
