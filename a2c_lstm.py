@@ -141,9 +141,9 @@ class A2CAgent:
 if __name__ == "__main__":
 
     # Avoid Tensorflow eats up GPU memory
-    config = tf.ConfigProto()
+    config = tf.compat.v1.ConfigProto()
     config.gpu_options.allow_growth = True
-    sess = tf.Session(config=config)
+    sess = tf.compat.v1.Session(config=config)
     K.set_session(sess)
 
     game = DoomGame()
